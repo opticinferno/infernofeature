@@ -3,20 +3,21 @@
     "description": "Simple add-on to enable Features",
     "type": "silverstripe-vendormodule",
     "license": "BSD-3-Clause",
-    "keywords": [
-        "silverstripe",
-        "Features"
-    ],
     "authors": [
         {
-            "name": "Gordon Skinner",
-            "email": "gordon@opticblaze.co.za"
+            "name": "Gordon Skinner"
         }
     ],
-
+    "require": {
+        "silverstripe/framework": ">=3.5"
+    },
     "extra": {
+
         "expose": [
-            "client"
+			"bootstrap",
+            "css",
+            "images",
+            "javascript"
         ]
     }
 }
