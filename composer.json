@@ -1,0 +1,27 @@
+{
+    "name": "opticinferno/infernofeature",
+    "description": "Simple add-on to enable Features",
+    "type": "silverstripe-vendormodule",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "silverstripe",
+        "Features"
+    ],
+    "authors": [
+        {
+            "name": "Gordon Skinner",
+            "email": "gordon@opticblaze.co.za"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "Inferno\\InfernoFeature\\": "src/"
+        }
+    },
+    "extra": {
+        "expose": [
+            "client"
+        ]
+    }
+}
